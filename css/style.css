@@ -1,1 +1,6 @@
-.navbar img{width: 40px;}
+.navbar img {
+    width: 40px;
+}
+.search-input::placeholder {
+  color: gray;
+}
