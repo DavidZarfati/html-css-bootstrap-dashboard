@@ -51,7 +51,7 @@
                         <div>
                             <label for="inputnome" class="form-label fs-5">Nome autore</label>
                         </div>
-                        <div class="col-sm-10">
+                        <div>
                             <input type="text" class="form-control" id="inputnome"
                                 placeholder="Inserisci il nome dell'autore" required>
                         </div>
@@ -61,7 +61,7 @@
                     <!-- div cognome autore -->
                     <div class="col-6">
                         <div><label for="inputcognome" class="form-label fs-5">Cognome autore</label></div>
-                        <div class="col-sm-10">
+                        <div>
                             <input type="text" class="form-control" id="inputcognome" placeholder="Inserisci il cognome"
                                 required>
                         </div>
@@ -69,9 +69,9 @@
 
 
                     <!-- div titolo -->
-                    <div class="col-12">
+                    <div class="col-12 col-lg-12">
                         <div><label for="inputtitolo" class="form-label fs-5 py-2">Titolo</label></div>
-                        <div class="col-sm-10">
+                        <div>
                             <input type="text" class="form-control" id="inputtitolo"
                                 placeholder="Inserisci il titolo del libro">
                         </div>
@@ -81,36 +81,38 @@
 
 
                 <!-- div Genere -->
-                <div class="col-12">
-                    <div><label for="inputgenere" class="form-label fs-5 py-2">Genere</label></div>
-                    <div class="input-group mb-3">
-                        <select class="form-select" id="inputGroupSelect01">
-                            <option selected>Scegli il genere</option>
-                            <option value="1">Giallo</option>
-                            <option value="2">Romanzo</option>
-                            <option value="3">Cronaca</option>
-                        </select>
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <div><label for="inputgenere" class="form-label fs-5 py-2">Genere</label></div>
+                        <div class="input-group mb-3">
+                            <select class="form-select" id="inputGroupSelect01">
+                                <option selected>Scegli il genere</option>
+                                <option value="1">Giallo</option>
+                                <option value="2">Romanzo</option>
+                                <option value="3">Cronaca</option>
+                            </select>
+                        </div>
+
                     </div>
 
-                </div>
 
 
-
-                <!-- div Anno di pubblicazione -->
-                <div class="col-12">
-                    <div><label for="inputanno" class="form-label fs-5 py-2">Anno di Pubblicazione</label></div>
-                    <div class="col-sm-10">
-                        <input type="number" class="form-control" id="inputanno" placeholder="Inserisci l'anno">
+                    <!-- div Anno di pubblicazione -->
+                    <div class="col-12 col-lg-4">
+                        <div><label for="inputanno" class="form-label fs-5 py-2">Anno di Pubblicazione</label></div>
+                        <div>
+                            <input type="number" class="form-control" id="inputanno" placeholder="Inserisci l'anno">
+                        </div>
                     </div>
-                </div>
 
 
 
-                <!-- div ISBN -->
-                <div class="col-12">
-                    <div><label for="inputisbn" class="form-label fs-5 py-2">ISBN#</label></div>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="inputisbn" placeholder="Inserisci l'anno">
+                    <!-- div ISBN -->
+                    <div class="col-12 col-lg-4">
+                        <div><label for="inputisbn" class="form-label fs-5 py-2">ISBN#</label></div>
+                        <div>
+                            <input type="text" class="form-control" id="inputisbn" placeholder="Inserisci l'anno">
+                        </div>
                     </div>
                 </div>
 
@@ -119,7 +121,8 @@
                 <!-- div Note -->
                 <div class="col-12">
                     <label for="inputnote" class="form-label">Note</label>
-                    <textarea class="form-control" id="inputnote" rows="3"></textarea>
+                    <textarea class="form-control" id="inputnote" placeholder="Inserisci eventuali note sul libro"
+                        rows="3"></textarea>
                 </div>
 
 
