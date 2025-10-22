@@ -62,18 +62,17 @@
                     <div class="col-6">
                         <div><label for="inputcognome" class="form-label fs-5">Cognome autore</label></div>
                         <div>
-                            <input type="text" class="form-control" id="inputcognome" placeholder="Inserisci il cognome"
-                                required>
+                            <input type="text" class="form-control" id="inputcognome" placeholder="Inserisci il cognome" required>
                         </div>
                     </div>
 
 
                     <!-- div titolo -->
-                    <div class="col-12 col-lg-12">
+                    <div class="col-12">
                         <div><label for="inputtitolo" class="form-label fs-5 py-2">Titolo</label></div>
                         <div>
                             <input type="text" class="form-control" id="inputtitolo"
-                                placeholder="Inserisci il titolo del libro">
+                                placeholder="Inserisci il titolo del libro" required>
                         </div>
                     </div>
                     <div class="form-text px-3">Titolo versione italiana</div>
@@ -85,7 +84,7 @@
                     <div class="col-12 col-lg-4">
                         <div><label for="inputgenere" class="form-label fs-5 py-2">Genere</label></div>
                         <div class="input-group mb-3">
-                            <select class="form-select" id="inputGroupSelect01">
+                            <select class="form-select" id="inputGroupSelect01" required>
                                 <option selected>Scegli il genere</option>
                                 <option value="1">Giallo</option>
                                 <option value="2">Romanzo</option>
@@ -101,7 +100,7 @@
                     <div class="col-12 col-lg-4">
                         <div><label for="inputanno" class="form-label fs-5 py-2">Anno di Pubblicazione</label></div>
                         <div>
-                            <input type="number" class="form-control" id="inputanno" placeholder="Inserisci l'anno">
+                            <input type="number" class="form-control" id="inputanno" placeholder="Inserisci l'anno" required> 
                         </div>
                     </div>
 
@@ -111,7 +110,7 @@
                     <div class="col-12 col-lg-4">
                         <div><label for="inputisbn" class="form-label fs-5 py-2">ISBN#</label></div>
                         <div>
-                            <input type="text" class="form-control" id="inputisbn" placeholder="Inserisci l'anno">
+                            <input type="text" class="form-control" id="inputisbn" placeholder="Inserisci il codice ISBN#" required>
                         </div>
                     </div>
                 </div>
@@ -121,8 +120,7 @@
                 <!-- div Note -->
                 <div class="col-12">
                     <label for="inputnote" class="form-label">Note</label>
-                    <textarea class="form-control" id="inputnote" placeholder="Inserisci eventuali note sul libro"
-                        rows="3"></textarea>
+                    <textarea class="form-control" id="inputnote" placeholder="Inserisci eventuali note sul libro" rows="3"></textarea>
                 </div>
 
 
@@ -141,8 +139,9 @@
 
                 <!-- div Aggiungi libro -->
                 <div class="col-12">
-                    <button type="button" class="btn btn-primary"><a class="text-white text-decoration-none"
-                            href="">Aggiungi Libro</a></button>
+                    <button type="submit" class="btn btn-primary">
+                        <div class="text-white text-decoration-none" href="./index.html">Aggiungi Libro</div>
+                    </button>
                 </div>
 
 
